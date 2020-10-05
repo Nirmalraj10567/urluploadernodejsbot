@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^0.20.0",
+    "node-downloader-helper": "^1.0.14",
+    "telegraf": "^3.38.0",
+    "ytdl-core": "^3.3.0"
+  }
+}
