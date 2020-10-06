@@ -1,8 +1,93 @@
 {
+
+  "name": "torrent-bot",
+
+  "version": "1.0.0",
+
+  "description": "Torrent bot for downloading and searching torrents",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "dev": "nodemon index.js",
+
+    "build": "cd web && npm install && npm run build",
+
+    "start": "NODE_ENV=production node index.js"
+
+  },
+
+  "keywords": [
+
+    "torrent",
+
+    "bot",
+
+    "download",
+
+    "search",
+
+    "seed"
+
+  ],
+
+  "author": "pathetic_geek",
+
+  "license": "ISC",
+
+  "nodemonConfig": {
+
+    "ignore": [
+
+      ".next",
+
+      "node_modules",
+
+      "web"
+
+    ]
+
+  },
+
+  "prettier": {
+
+    "printWidth": 140,
+
+    "tabWidth": 2,
+
+    "useTabs": false,
+
+    "semi": true,
+
+    "singleQuote": false,
+
+    "trailingComma": "none",
+
+    "arrowParens": "avoid"
+
+  },
+
   "dependencies": {
-    "axios": "^0.20.0",
+
+    
+    
+ 
+
+
+
     "node-downloader-helper": "^1.0.14",
-    "telegraf": "^3.38.0",
-    "ytdl-core": "^3.3.0"
+
+    "telegraf": "^3.38.0"
+
   }
+
 }
+
+
+  
+    
+    
+    
+  
+
